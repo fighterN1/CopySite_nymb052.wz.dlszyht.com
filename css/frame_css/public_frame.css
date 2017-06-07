@@ -1,0 +1,64 @@
+﻿@charset "gb2312";
+/* CSS Document */
+/*	Date:2012-10-29;
+	author:qwguo;
+	purpose:���õĽṹ���;
+*/
+body{font-size: 12px;}
+.header{position:relative; z-index: 12;}
+/*----------frameContainer style--------------*/
+.frameContainer{width:100%; position:relative; z-index:9; margin:0px auto;}
+  .frameContainerM{padding-top:10px;*zoom:1;}
+.frameLeftContainer{}
+/**---------ContainerCrumbs-----**/
+.ContainerCrumbs{/*display:none;*/font-size:14px; line-height:30px; padding-left:10px;}/*--����ͨ�����м����ʽ--*/
+  .ContainerCrumbs em{margin:0px 5px;}
+
+/**----------frameMenuColumn------------**/
+.frameMenuColumn{width:210px; float:left; margin-right:0px; _display:inline;overflow:hidden}
+.frameMenuColumnT,.frameMenuColumnB{display:none;}
+/**----------frameMainColumn------------**/
+.frameMainColumn{width:740px; float:right; zoom:1; margin-bottom:10px;}
+
+/*--�������ģ����ʽ--*/
+.WebLModule{}
+.WebLModule .Title{position:relative;}
+.WebLModule .Title .more{position:absolute; right:5px; line-height:30px;}
+.WebLModule .T_ListItem_2{height:24px; line-height:24px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; width:100%;list-style-position:inside; list-style-type:disc; }
+.WebLModule .T_ListItem_2 em{display:none;}
+.WebLModule .T_ListItem_2 .q_title{float:left; width:60%; overflow:hidden;text-overflow:ellipsis; white-space:nowrap;}
+.WebLModule .T_ListItem_2 .times {float:right;}
+.WebLModule .ConArea{overflow:hidden;}
+  .WebLModule .picTxtmodule_1 .pics{float:left; margin-right:5px; overflow:hidden;}
+  .WebLModule .picTxtmodule_2 .pics{float:right; margin-left:5px; overflow:hidden;}
+  .WebLModule .picTxtmodule_3 .pics{ float:left; margin-right:5px; overflow:hidden;}
+  .WebLModule .picTxtmodule_3 .pics td{vertical-align:text-top;}
+	.WebLModule .picTxtmodule_3 .text{overflow:hidden;}
+  .WebLModule .picTxtmodule_4 .pics{ float:right; margin-left:5px; overflow:hidden;}
+  .WebLModule .picTxtmodule_4 .pics td{vertical-align:text-top;}
+	.WebLModule .picTxtmodule_4 .text{overflow:hidden;}
+  .WebLModule .picTxtmodule_5 .pics{ margin-bottom:5px;}
+  .WebLModule .picTxtmodule_6 .pics{ margin-top:5px;}
+.WebLModule .P_ListItem_1{overflow:hidden; padding:5px 0;}
+.WebLModule .P_ListItem_1 .Pic_box{float:left; margin-right:5px;}
+.WebLModule .P_ListItem_1 .pic{ overflow:hidden;}
+
+.WebLModule .P_ListItem_1 .FC_PicName{line-height:24px; height:24px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; _white-space:normal; font-weight:bold;}
+.WebLModule .P_ListItem_1 p{overflow:hidden;word-break:break-all; height:40px;}
+
+/**noContent û���κ�����**/
+.noContent{padding:10px; text-align:center; font-size:14px;}
+
+/*-----��վ�������Ӧ��Ŀ��ܻ�����ʽ----*/
+.WebCTM,.WebCBM{overflow:hidden;}
+  .WebCTL,.WebCBL{float:left; overflow:hidden;}
+  .WebCTR,.WebCBR{float:right; overflow:hidden;}
+.WebCM{overflow:hidden; zoom:1; position:relative; width:100%;}
+  .WebCML,.WebCMR{padding-bottom:30000px;margin-bottom:-30000px; position:absolute; top:0px;}
+	.WebCML{left:0; }
+	.WebCMR{right:0;}
+.WebCMM{}
+
+/*���ģ�鰴ť��ʽ*/
+.AddModule{ display:block; background:url(../../pic/gs_2010/add_module.png) no-repeat; width:210px;height:35px;}
+.AddModule:hover{background:url(../../pic/gs_2010/add_module.png) 0 -35px no-repeat;}

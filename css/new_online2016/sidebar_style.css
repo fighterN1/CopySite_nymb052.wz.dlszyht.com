@@ -1,0 +1,58 @@
+﻿@charset "gb2312";
+
+/*-----����------*/
+.qq_onService_panel i,.qq_onService_panel em{font-style:normal;}
+.qq_onService_panel .sidebar2_Mo{position: fixed; right:0; top:50%; margin-top: -179px; z-index:10000;}
+.qq_onService_panel .sidebar2_list{width: 50px; margin-bottom: 10px; position: relative; right:0;}
+.qq_onService_panel .sidebar2_listT,.qq_onService_panel .sidebar2_listB{background-repeat: no-repeat; padding-left:7px;}
+.qq_onService_panel .sidebar2_listT{background-position:left top;}
+.qq_onService_panel .sidebar2_listB{background-position:left bottom;}
+.qq_onService_panel .list_c{height:7px;}
+.qq_onService_panel .ie_w{*width: 43px;}
+.qq_onService_panel .sidebar2_listC{text-align: center;}
+.qq_onService_panel .sidebar2_listC .prev_btn,.qq_onService_panel .sidebar2_listC .next_btn{display: inline-block;}
+.qq_onService_panel .sidebar2_listC .prev_btn{margin-bottom: 10px;}
+.qq_onService_panel .function_list .list{text-align: center; height:40px; width:auto; padding:0; border:0; overflow: inherit; margin-bottom: 10px; position: relative;}
+.qq_onService_panel .function_list .list a{display: inline-block;}
+/*.function_list .list:hover .alt_c{display: block;}*/
+.qq_onService_panel .list .tel_icon,.qq_onService_panel .list .qq_icon,.qq_onService_panel .list .wx_icon,.qq_onService_panel .list .edit_icon,.qq_onService_panel .list .mail_icon,.qq_onService_panel .list .map_icon{background-repeat: no-repeat; background-position: center center; position: relative; margin-top: 7px; width: 100%; z-index: 2;}
+.qq_onService_panel .list .tel_icon{background-image:url('../../images/new_online2016/tel_icon.png'); width:26px; height:26px;}
+.qq_onService_panel .list:hover .tel_icon{background-image:url('../../images/new_online2016/tel_icon_h.png');}
+.qq_onService_panel .list .qq_icon{background-image:url('../../images/new_online2016/qq_icon.png'); width:25px; height:25px;}
+.qq_onService_panel .list:hover .qq_icon{background-image:url('../../images/new_online2016/qq_icon_h.png');}
+.qq_onService_panel .list .wx_icon{background-image:url('../../images/new_online2016/wx_icon.png'); width:30px; height:23px;}
+.qq_onService_panel .list:hover .wx_icon{background-image:url('../../images/new_online2016/wx_icon_h.png');}
+.qq_onService_panel .list .edit_icon{background-image:url('../../images/new_online2016/edit_icon.png'); width:25px; height:25px;}
+.qq_onService_panel .list:hover .edit_icon{background-image:url('../../images/new_online2016/edit_icon_h.png');}
+.qq_onService_panel .list .mail_icon{background-image:url('../../images/new_online2016/mail_icon.png'); width:26px; height:25px;}
+.qq_onService_panel .list:hover .mail_icon{background-image:url('../../images/new_online2016/mail_icon_h.png');}
+.qq_onService_panel .list .map_icon{background-image:url('../../images/new_online2016/map_icon.png'); width:26px; height:25px;}
+.qq_onService_panel .list:hover .map_icon{background-image:url('../../images/new_online2016/map_icon_h.png');}
+.qq_onService_panel .sidebar2_state{text-align: center;}
+.qq_onService_panel .sidebar2_state a{display: inline-block; width: 32px; height:32px;}
+/*.alt_c{display: none;}*/
+
+/* ��ϵ���� */
+.qq_onService_panel .lxwm_tel{ width: 178px; position: absolute; right:-178px; top:0; opacity:0; filter:alpha(opacity=0); -moz-opacity:0; -khtml-opacity: 0; }
+.qq_onService_panel .lxwm_c .lxwm_tit{padding:0 20px; font-weight: normal; height:50px; line-height: 50px; text-align: left; font-size: 18px; border-bottom-width: 1px; border-bottom-style: solid;}
+.qq_onService_panel .lxwm_c .lxwm_list{padding:20px 20px 1px;}
+.qq_onService_panel .lxwm_c .lxwm_list li{background:url('../../images/new_online2016/tel_border.png') no-repeat; margin-bottom: 20px; width:139px; height:32px; line-height: 32px; font-size: 14px;}
+
+/* ��ϵ��ʽ */
+.qq_onService_panel .lxfs_qq{width:200px; overflow:hidden; position: absolute; right:-200px; top:-50px; opacity:0; filter:alpha(opacity=0); -moz-opacity:0; -khtml-opacity: 0;}
+.qq_onService_panel .lxfs_c{ width:217px; overflow:hidden;/* overflow-y:auto; overflow-x:hidden;max-height:236px;*/}
+.qq_onService_panel .lxfs_list{padding:20px 15px 0 0; min-height:107px;}
+.qq_onService_panel .lxfs_list li{margin-bottom: 20px;}
+.qq_onService_panel .lxfs_list li em{display:block; float: left; text-align: right; width:77px; overflow: hidden; font-size: 12px; height:32px; line-height: 32px;}
+.qq_onService_panel .lxfs_list li a{width: 102px; height:32px; line-height: 32px; text-align: center;}
+
+/* ΢��ɨ�� */
+.qq_onService_panel .wx_scan{width:200px; position: absolute; right:-200px; top:-80px; opacity:0; filter:alpha(opacity=0); -moz-opacity:0; -khtml-opacity: 0;}
+.qq_onService_panel .wx_scan_c{text-align: center; padding-top:15px;}
+.qq_onService_panel .wx_scan_c .pic{margin-bottom: 5px; display: block;}
+.qq_onService_panel .wx_scan_c p{padding-bottom: 10px;}
+
+/* ˵������ */
+.qq_onService_panel .explain_text{width:106px; position: absolute; right:-106px; top:-2px; opacity:0; filter:alpha(opacity=0); -moz-opacity:0; -khtml-opacity: 0;}
+.qq_onService_panel .explain_c a{font-size: 16px; padding:5px 0;}
+

@@ -1,0 +1,203 @@
+﻿@charset "gb2312";
+/* CSS Document */
+/*--ҳ��--*/
+.BBS_but_page .page{float:right;}
+/*--���ñ���ͼƬ--*/	
+.tit_bg1{/*background:url(http://img3.ev123.com/others40/WebC_1_Title.png) repeat-x 0 0px;*/ background-color:#006401;}
+.log_input_li .hint_info i,.log_submit_but,.reg_guide .log_regBut a,.reg_input_li .hint_info i,.reg_submit_but,.F_BBSItem_t .Item_c_toggle b,.BBS_but_page .buts_operate a,.F_BBSReply_area .but a,.BBS_release_c .but a,.blogRely_but a,.ev_photos_zc_topri a{background-image:url(../../../others40/bbs_icon_1.png); _background-image:url(../../../others40/bbs_icon_1_ie6.png); background-repeat:no-repeat;}
+/*--���ܱ߿���ɫ--*/
+.F_login,.F_login_t,.web_login,.F_regist,.F_regist_t,.F_BBSHeader_wrap,.F_BBSHeader_t,.F_BBSItem_style,.F_BBSItem_t,.F_BBSPosts_list,.F_BBSPosts_list_t,.F_BBS_reply,.F_BBSReply_area_t,.F_BBS_release,.BBS_release_t,#ev_photos_zc_1,.ev_photos_zc_top,.F_blog .blog_box,.F_blog .blog_box_t,.blogReply_listArea_t,.blogRely_inputArea_t{border-color:#E0DFDD;}
+/*--���ܱ�����ɫ--*/
+.F_login_c,.F_regist_c,.F_BBSHeader_c,.F_BBSItem_c,.F_BBSPosts_list_c,.F_BBS_reply_c,.F_BBS_release_c,#ev_photos_zc_1 .ev_photos_zc_cent,.F_blog .blog_box_c{background-color:#fff;}
+/*------BBS��Ҫ�����Ķ�����ʽ------*/
+
+/*-��¼--ע����ɫ��*/
+  .F_login_t strong,.F_regist_t strong{color:#fff;}
+	.log_input_li label,.reg_input_li label{color:#444;}
+	.log_input_li input,.reg_input_li input{border-color:#aaa;}
+	.log_input_li .input_div_focus input,.reg_input_li .input_div_focus input{border-color:#006401;}
+	  .log_input_li .hint_info,.reg_input_li .hint_info{border-color:#ccc; background-color:#ffffff;}
+	  .log_input_li .hint_err,.reg_input_li .hint_err{border-color:#f00; color:#f00;}
+/*-��¼-*/
+.F_login{height:320px;}
+  .log_input_li label{width:90px;}
+  .reg_guide{padding-right:120px;}
+  .reg_guide dt{color:#444;}
+  .reg_guide .info_txt{color:#555;}
+/*-ע��-*/
+.F_regist{}
+.F_regist_t span{color:#5a5a5a;}
+  .F_regist_t span a{color:#5a5a5a;}
+  .F_regist_t span a:hover{font-weight:bold; color:#2495B7; text-decoration:underline;}
+	.reg_input_li label{ width:290px;}
+	.reg_But{padding-left:300px;}
+/*--------BBS������ͷ������_wrap-----------*/
+  .BBS_crumbs,.BBS_crumbs a{color:#fff}
+  .into_LogReg,.into_LogReg a,.welcome_user_info .welcome_txt,.welcome_user_info a{color:#fff;}
+  .BBS_crumbs a:hover{text-decoration:underline; color:#fff;}
+	.into_LogReg a:hover,.welcome_user_info a:hover{text-decoration:underline; color:#fff;}
+  /*-----------�����ͻ�Աͳ�� style-------------*/
+  .posts_statistics em{color:#444;}
+  .member_statistics em{color:#444;}
+  .member_statistics a{color:#5a5a5a; font-size:14px;}
+  .member_statistics a:hover{text-decoration:underline;}
+	
+  /*-----------BBS��Ŀ���� style-------------*/
+  .BBS_plateRule_c,.BBS_plateExplain th{border-color:#ddd;}
+  .BBS_plateExplain th{background-color:#006401; color:#fff;}
+  .BBS_plateRule_c p{color:#5a5a5a;}
+  .BBS_plateRecommend_c li a{color:#5a5a5a}
+	.BBS_plateRecommend_c li a:hover{color:#006401;}
+	  
+/*--------------BBS��Ŀ�б�---------------*/
+	.F_BBSItem_t strong a{ color:#fff;}
+/*--------------BBS��Ŀ��ʽ1---------------*/
+  .F_BBSItem_style_1 thead td{background-color:#F5FAFC;}
+  .F_BBSItem_style_1 tbody td{border-color:#ccc;}
+	.F_BBSItem_style_1 tbody tr:hover td{background-color:#F5FAFC;}
+	  .F_BBSItem_style_1 .td_plate_info h2{color:#006401;}
+		.F_BBSItem_style_1 .td_plate_info h2 a{color:#5a5a5a;}
+		.F_BBSItem_style_1 .td_plate_info h2 a:hover{color:#006401;}
+	  .F_BBSItem_style_1 .td_plate_info p{}
+	.F_BBSItem_style_1 .td_lastUp{}
+	  .F_BBSItem_style_1 .last_tit{color:#555;}
+	  .F_BBSItem_style_1 .last_info{}
+	  .F_BBSItem_style_1 .last_name{color:#555;}
+	  .F_BBSItem_style_1 .last_name:hover{color:#006401;}
+	  .F_BBSItem_style_1  .last_time{color:#999;}
+  /*--------------BBS��Ŀ��ʽ2---------------*/
+	.F_BBSItem_style_2 td{border-color:#ccc;}
+	  .F_BBSItem_style_2 tr:hover td{background-color:#F5FAFC;}
+		.F_BBSItem_style_2 dt{color:#006401;}
+		  .F_BBSItem_style_2 dt a{color:#5a5a5a;}
+		  .F_BBSItem_style_2 dt a:hover{color:#006401;}
+		.F_BBSItem_style_2 .theme_num em{color:#5a5a5a;}
+		.F_BBSItem_style_2 .posts_numm em{margin:0px 5px; color:#006401;}
+		.F_BBSItem_style_2 .last_info em{color:#999;}
+  /*--------------BBS���Ӳ���������ʽ---------------*/
+	.F_BBSPosts_list_t strong{color:#fff;}
+	  .posts_prevNext a{border-color:#999; color:#000;}
+	  .posts_prevNext a:hover{color:#fff; background-color:#006401; border-color:#006401;}
+
+	/*--------------BBS�����б�tab��ǩ��ʽ---------------*/
+	  .F_posts_list_tab{}
+		.F_posts_list_tab_t{background-color:#006401; border-color:#ddd;}
+		  .F_posts_list_tab_t li{border-color:#ddd;}
+			.F_posts_list_tab_t li span,.F_posts_list_tab_t li span a{color:#fff;}
+			.F_posts_list_tab_t li.cur span,.F_posts_list_tab_t li.cur span a{background-color:#fff; color:#006401;}
+	  .F_posts_list_tab_c{padding-top:15px;}
+		.posts_list{display:none;}
+		.all_posts_list{display:block;}
+		  .posts_list td{border-color:#ddd;}
+		.posts_list tbody tr:hover td{background-color:#F5FAFC;}
+		  .posts_list .td_theme_name{}
+			.posts_list .td_theme_name a{color:#5a5a5a;}
+			.posts_list .td_theme_name a:hover{color:#006401; text-decoration:underline;}
+		  .posts_list .td_posts_author{}
+			.posts_list .td_posts_author a{ color:#000;}
+			.posts_list .td_posts_author a:hover{color:#006401;}
+			.posts_list .td_posts_author span{color:#999;}
+		  .posts_list .td_popularity{}
+			.posts_list .td_popularity em{color:#006401;}
+			.posts_list .td_popularity span{color:#666666;}
+		  .posts_list .td_lastup{}
+		  .posts_list .td_lastup em{color:#999;}
+			.posts_list .td_lastup a{color:#333;}
+			.posts_list .td_lastup a:hover{color:#005EEB;}
+
+  /*--------------BBS��������ҳ ---------------*/
+	  .F_BBS_reply_c .td_left{background-color:#fff;border-color:#ddd;}
+	  .F_BBS_reply_c .td_right{background-color:;}
+	/*--------------BBS�����б�---------------*/
+	  .BBS_reply_list{border-color:#B5A799;}
+	  
+  /*--------------BBS������Ϣ style---------------*/
+		.BBS_authorInfo .name_info{border-color:#777;}
+		  .BBS_authorInfo .name_info strong{color:#006401;}
+			  .BBS_authorInfo .pic_info span{border-color:#aaa;}
+			.BBS_authorInfo dd{}
+			.BBS_authorInfo dd em{}
+  /*--------------BBS�������� �༭��---------------*/
+	.post_attr{border-color:#777;}
+	/*--------------BBS����---����ʱ��---------------*/
+	  .releasePosts_info .release_time{color:#000;}
+		  .releasePosts_info .release_time b{color:#999;}
+		/*--------------BBS����---�༭---------------*/
+	  .releasePosts_edit a{}
+		.releasePosts_edit a:hover{text-decoration:underline;}
+		.releasePosts_edit .edit_a{color:#006699;}
+		.releasePosts_edit .del_a{color:#006401;}
+		.releasePosts_edit .font_select{color:#333;}
+		  .releasePosts_edit .font_select b{color:#777;}
+		  .releasePosts_edit .font_select a{color:#006699;}
+	  .releasePosts_edit .floors{}
+	  .releasePosts_edit .floors sup{color:#09F;}
+		/*--------------�ص�����---------------*/
+	.BBS_reply_list .backTop{background-color:#eee;}
+	  .BBS_reply_list .backTop a{color:#09F;}
+	  .BBS_reply_list .backTop a:hover{color:#006401;}
+  /*--------------BBS���ӻظ�����---------------*/	 
+	.F_BBSReply_area_t{background-color:#006401;}
+	  .F_BBSReply_area_t strong{color:#006401;}
+	.F_BBSReply_area .edit_area{}
+/*--------------��������---------------*/ 
+		.BBS_release_t{background-color:#eee;}
+	  .BBS_release_t strong{}
+		.BBS_release_c .td_left{background-color:#eee;border-color:#ddd;}
+		.BBS_release_c .td_right{border-color:#c8c8c8;}
+		.BBS_release_c .release_theme_name{border-color:#aaa;}
+		.BBS_release_c .hint_info{color:#f00;}
+
+/*--blog ������ɫ--*/
+.F_blog .blog_box{overflow:hidden;}
+  .F_blog .blog_box_t strong{color:#fff; font-family:"΢���ź�"}
+  .F_blog_left{width:210px; margin-right:10px; font-family:"����";}
+   .F_blog_right{width:740px; font-family:"����";}
+ /*---������Ϣ��ʽ---*/
+  .Bloger_info,.Blog_newcomment_list{border-bottom:1px dashed #777;}
+	.Bloger_pic{border:1px solid #ccc; background-color:#fff;}
+	  .Bloger_attr li strong,.blog_visit li strong{color:#444;}
+	  .Bloger_attr li span{color:#006401;}
+	  .blog_visit li span{color:#006401;}
+  /*---���������ʽ---*/
+  .BlogPost_class li a{color:#5a5a5a;}
+	.BlogPost_class li a:hover{text-decoration:none; background-color:#f5f5f5; color:#C63022;}
+  /*---�������»ظ���ʽ---*/
+  .Blog_newcomment_list .commnet_name{color:#5a5a5a;}
+  .Blog_newcomment_list a{color:#5a5a5a;}
+	.Blog_newcomment_list a:hover{color:#C63022;}
+	.Blog_newcomment_list .commnet_time{color:#999; }	
+  /*---�����б���ʽ---*/
+  .blog_list .list_item{border-bottom:1px dashed #ccc;}
+  .blog_list .list_item a,.blog_title_h .blog_title,.blog_article a{color:#5a5a5a;}
+	.blog_list .list_item a:hover{text-decoration:underline; color:#006401}
+	.blog_title_h .blog_times{margin-left:10px;color:#999;}
+	.blog_title_h .blog_belogin a{color:#555;}
+	.blog_title_h .blog_belogin a:hover{text-decoration:underline color:#C63022;}
+	/*--���ͻظ�����--*/
+	.blogReply_listArea_t,.blogRely_inputArea_t{background-color:#eee;}
+		.blogReply_listArea_t a{color:#5a5a5a;}
+		.blogReply_listArea_t a:hover{color:#C63022;}		
+	.blogReply_listArea_c{padding:15px;}
+	.blogReply_listArea_c dl{border-bottom:1px dotted #ccc;}
+			.blogReply_listArea_c dt .blogReply_name a{color:#006401;}
+			.blogReply_listArea_c dt .blogReply_name a:hover{text-decoration:underline; color:#C63022}
+			.blogReply_listArea_c dt .times{color:#999;}
+		.blogReply_listArea_c dd:hover{background-color:#f5f5f5;}
+/*----��˾�����ɫ����----*/
+#ev_photos_zc_1{border-radius:3px; overflow:hidden;}
+.ev_photos_zc_cent{padding:1px 0;}
+	.ev_photos_xiaotu ul{width:918px;}
+		.ev_photos_xiaotu li{width:158px; margin:0px 11px 15px;}
+	.ev_photos_datu ul{width:918px;}
+		.ev_photos_datu li{width:208px; margin:0px 9px 15px;}
+  .ev_photos_zc_tople,.ev_photos_zc_tople a{color:#fff;}
+  .ev_photos_zc_tople a:hover{text-decoration:underline; color:#C63022;}
+	.ev_photos .ev_photos_zc_tus{border:1px solid #999;}
+	  .ev_photos .ev_photos_zc_tus:hover{border:2px solid #006401;}
+	.ev_photos_zc_topri a{color:#ccc;}
+	  .ev_photos_zc_topri a:hover,.ev_photos_zc_topri .ev_photos_small_a_on,.ev_photos_zc_topri .ev_photos_big_a_on{color:#E01201;}
+	  .ev_photos .ev_photos_zc_zi{color:#888}
+	.ev_photos .ev_photos_zc_zi a{ color:#5a5a5a;}
+	  .ev_photos .ev_photos_zc_zi a:hover{ color:#006401; text-decoration:underline;}
+	  .ev_photos .ev_photos_zc_name{color:#5a5a5a;}
